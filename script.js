@@ -33,6 +33,27 @@ document.addEventListener('DOMContentLoaded', () => {
             themeToggleIcon.className = 'fa-solid fa-moon';
             themeToggleBtn.setAttribute('aria-label', 'Switch to dark theme');
         }
+
+        // Update GitHub Stats Images Theme
+        const contribGraph = document.getElementById('github-contrib-graph');
+        const statsSummary = document.getElementById('github-stats-summary');
+        const topLangs = document.getElementById('github-top-langs');
+        const streakStats = document.getElementById('github-streak-stats');
+        const activityGraph = document.getElementById('github-activity-graph');
+
+        if (theme === 'dark') {
+            if (contribGraph) contribGraph.src = "https://ghchart.rshah.org/3b82f6/abakaushik-lgtm";
+            if (statsSummary) statsSummary.src = "https://github-readme-stats.vercel.app/api?username=abakaushik-lgtm&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&text_color=9ca3af&title_color=3b82f6&icon_color=3b82f6";
+            if (topLangs) topLangs.src = "https://github-readme-stats.vercel.app/api/top-langs/?username=abakaushik-lgtm&layout=compact&theme=dark&hide_border=true&bg_color=00000000&text_color=9ca3af&title_color=3b82f6";
+            if (streakStats) streakStats.src = "https://github-readme-streak-stats.herokuapp.com/?user=abakaushik-lgtm&theme=dark&hide_border=true&background=00000000&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6&sideNums=9ca3af&sideLabels=9ca3af&currStreakNum=3b82f6";
+            if (activityGraph) activityGraph.src = "https://github-readme-activity-graph.vercel.app/graph?username=abakaushik-lgtm&theme=react-dark&hide_border=true&bg_color=00000000&color=3b82f6&line=3b82f6&point=3b82f6";
+        } else {
+            if (contribGraph) contribGraph.src = "https://ghchart.rshah.org/2563eb/abakaushik-lgtm";
+            if (statsSummary) statsSummary.src = "https://github-readme-stats.vercel.app/api?username=abakaushik-lgtm&show_icons=true&theme=default&hide_border=true&bg_color=00000000&text_color=475569&title_color=2563eb&icon_color=2563eb";
+            if (topLangs) topLangs.src = "https://github-readme-stats.vercel.app/api/top-langs/?username=abakaushik-lgtm&layout=compact&theme=default&hide_border=true&bg_color=00000000&text_color=475569&title_color=2563eb";
+            if (streakStats) streakStats.src = "https://github-readme-streak-stats.herokuapp.com/?user=abakaushik-lgtm&theme=default&hide_border=true&background=00000000&ring=2563eb&fire=2563eb&currStreakLabel=2563eb&sideNums=475569&sideLabels=475569&currStreakNum=2563eb";
+            if (activityGraph) activityGraph.src = "https://github-readme-activity-graph.vercel.app/graph?username=abakaushik-lgtm&theme=react&hide_border=true&bg_color=00000000&color=2563eb&line=2563eb&point=2563eb";
+        }
     }
 
 
