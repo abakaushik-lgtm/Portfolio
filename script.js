@@ -327,8 +327,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (normalized.includes('educ') || normalized.includes('degre') || normalized.includes('mca') || normalized.includes('bca') || normalized.includes('colleg') || normalized.includes('school') || normalized.includes('study')) {
             return `<strong>Anubhuti Kaushik's Education:</strong><br>
                     &bull; <strong>Master of Computer Applications (MCA):</strong> Currently pursuing.<br>
-                    &bull; <strong>Bachelor of Computer Applications (BCA):</strong> Degree completed successfully.<br>
-                    Her curriculum emphasizes database architectures, machine learning models, algorithms, and application design.`;
+                    &bull; <strong>Bachelor of Computer Applications (BCA):</strong> Gateway Institute of Engineering and Technology (GIET), Sonipat (2023-2026).<br>
+                    &bull; <strong>Intermediate & Secondary Education:</strong> Sunrise International School, Sonipat (12th: 82%, 10th: 80%).`;
         }
 
         // 2. Skills
@@ -342,10 +342,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // 3. Projects
         if (normalized.includes('project') || normalized.includes('work') || normalized.includes('make') || normalized.includes('portfol') || normalized.includes('build')) {
             return `<strong>Featured Projects:</strong><br>
-                    &bull; <strong>Fake News Detector:</strong> NLP classifier using Python, Scikit-learn, TF-IDF vectorization.<br>
-                    &bull; <strong>Stock Market Prediction:</strong> Time-series forecasting model powered by LSTM networks.<br>
-                    &bull; <strong>Emotion Detection System:</strong> Face analysis application built with OpenCV and CNNs.<br>
-                    &bull; <strong>Smart Agriculture Intelligence:</strong> Crop recommender using IoT and Decision Forest algorithms.`;
+                    &bull; <strong>AI Safety & Bias Audit:</strong> Eval testing suite checking jailbreaks and prompt injections.<br>
+                    &bull; <strong>The Knowledge Analyst:</strong> RAG system querying custom PDF documents.<br>
+                    &bull; <strong>The System Prompt Architect:</strong> Agentic workspace for persona prompting templates.<br>
+                    &bull; <strong>Object Detection & Tracking:</strong> Video stream coordination tracking with YOLO & OpenCV.<br>
+                    &bull; <strong>Other Projects:</strong> Fake News Detector, Stock Prediction, Emotion Detection, Smart Agriculture.`;
         }
 
         // 4. Certifications
@@ -372,6 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 6. Contact details
         if (normalized.includes('contact') || normalized.includes('email') || normalized.includes('phone') || normalized.includes('reach') || normalized.includes('linkedin') || normalized.includes('github') || normalized.includes('address')) {
             return `<strong>Contact Anubhuti Kaushik:</strong><br>
+                    &bull; <strong>Phone:</strong> <a href="tel:+919992234316">+91 9992234316</a><br>
                     &bull; <strong>Email:</strong> <a href="mailto:anubhutikaushik2727@gmail.com">anubhutikaushik2727@gmail.com</a><br>
                     &bull; <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anubhuti-kaushik-1561b22ab" target="_blank">linkedin.com/in/anubhuti-kaushik-1561b22ab</a><br>
                     &bull; <strong>GitHub:</strong> <a href="https://github.com/abakaushik-lgtm" target="_blank">github.com/abakaushik-lgtm</a><br>
