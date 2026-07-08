@@ -354,7 +354,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     &bull; <strong>AI Internship:</strong> Classification models & Flask microservice deployments.<br>
                     &bull; <strong>Prompt Engineering:</strong> Structured course completion (DeepLearning.AI).<br>
                     &bull; <strong>Data Science:</strong> IBM Data Science Professional Certification (Coursera).<br>
-                    &bull; <strong>Anthropic AI Certification:</strong> Claude API optimizations & prompt guidelines.`;
+                    &bull; <strong>Anthropic AI Certification:</strong> Claude API optimizations & prompt guidelines.<br>
+                    &bull; <strong>Python for Data Science:</strong> Ingestion and data structures basics.<br>
+                    &bull; <strong>SQL Essential Training:</strong> Querying, indexing, database joins.<br>
+                    &bull; <strong>Data Analysis (Pandas/NumPy):</strong> Cleaning and operations execution.<br>
+                    &bull; <strong>Data Visualization (Matplotlib):</strong> Dashboard layouts and plots creation.<br>
+                    &bull; <strong>Machine Learning Fundamentals:</strong> Regression, classification and clustering model setups.<br>
+                    &bull; <strong>Statistics for Data Science:</strong> Probability vectors and hypothesis testing.`;
         }
 
         // 5. Career Goals
