@@ -345,11 +345,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const normalized = input.toLowerCase().trim();
 
         // 1. Education
-        if (normalized.includes('educ') || normalized.includes('degre') || normalized.includes('mca') || normalized.includes('bca') || normalized.includes('colleg') || normalized.includes('school') || normalized.includes('study')) {
+        if (normalized.includes('educ') || normalized.includes('degre') || normalized.includes('bca') || normalized.includes('colleg') || normalized.includes('school') || normalized.includes('study')) {
             return `<strong>Anubhuti Kaushik's Education:</strong><br>
-                    &bull; <strong>Master of Computer Applications (MCA):</strong> Currently pursuing.<br>
                     &bull; <strong>Bachelor of Computer Applications (BCA):</strong> Gateway Institute of Engineering and Technology (GIET), Sonipat (2023-2026).<br>
-                    &bull; <strong>Intermediate & Secondary Education:</strong> Sunrise International School, Sonipat (12th: 82%, 10th: 80%).`;
+                    &bull; <strong>Intermediate & Secondary Education:</strong> Sunrise International School, Sonipat (12th BSEH: 82%, 10th BSEH: 80%).`;
         }
 
         // 2. Skills
@@ -365,21 +364,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 3. Projects
         if (normalized.includes('project') || normalized.includes('work') || normalized.includes('make') || normalized.includes('portfol') || normalized.includes('build')) {
-            return `<strong>Featured Projects:</strong><br>
+            return `<strong>Featured Projects (7 Total):</strong><br>
                     &bull; <strong>AI Safety & Bias Audit:</strong> Eval testing suite checking jailbreaks and prompt injections.<br>
-                    &bull; <strong>The Knowledge Analyst:</strong> RAG system querying custom PDF documents.<br>
+                    &bull; <strong>The Knowledge Analyst:</strong> RAG concept system querying custom PDF documents.<br>
                     &bull; <strong>The System Prompt Architect:</strong> Agentic workspace for persona prompting templates.<br>
-                    &bull; <strong>Object Detection & Tracking:</strong> Video stream coordination tracking with YOLO & OpenCV.<br>
-                    &bull; <strong>Other Projects:</strong> Fake News Detector, Stock Prediction, Emotion Detection, Smart Agriculture.`;
+                    &bull; <strong>Language Translation Tool:</strong> NLP application executing multilingual translation API pipelines.<br>
+                    &bull; <strong>Speech to Text Transcription:</strong> Real-time audio recognition transcriptions platform.<br>
+                    &bull; <strong>Object Detection & Tracking:</strong> Video stream localizations tracking using OpenCV & YOLO.<br>
+                    &bull; <strong>Emotion Detection System:</strong> Face analysis application built with OpenCV and CNNs.`;
         }
 
         // 4. Certifications
-        if (normalized.includes('certif') || normalized.includes('licens') || normalized.includes('credential') || normalized.includes('ibm') || normalized.includes('anthropic') || normalized.includes('deeplearning')) {
+        if (normalized.includes('certif') || normalized.includes('licens') || normalized.includes('credential')) {
             return `<strong>Professional Certifications:</strong><br>
-                    &bull; <strong>AI Internship:</strong> Classification models & Flask microservice deployments.<br>
-                    &bull; <strong>Prompt Engineering:</strong> Structured course completion (DeepLearning.AI).<br>
-                    &bull; <strong>Data Science:</strong> IBM Data Science Professional Certification (Coursera).<br>
-                    &bull; <strong>Anthropic AI Certification:</strong> Claude API optimizations & prompt guidelines.<br>
                     &bull; <strong>Python for Data Science:</strong> Ingestion and data structures basics.<br>
                     &bull; <strong>SQL Essential Training:</strong> Querying, indexing, database joins.<br>
                     &bull; <strong>Data Analysis (Pandas/NumPy):</strong> Cleaning and operations execution.<br>
@@ -391,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 5. Career Goals
         if (normalized.includes('goal') || normalized.includes('career') || normalized.includes('aim') || normalized.includes('future') || normalized.includes('job') || normalized.includes('hire') || normalized.includes('aspir')) {
             return `<strong>Career Path:</strong><br>
-                    Anubhuti aims to establish herself as a high-performing <strong>AI Engineer / Data Scientist / Generative AI Specialist</strong>. She is passionate about training models, fine-tuning LLMs, designing prompt systems, and writing clean, deployment-ready code to solve industrial hurdles.`;
+                    Anubhuti is a high-performing <strong>AI Engineer / Generative AI Specialist</strong> passionate about building intelligent AI agents using Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), and Python.`;
         }
 
         // 6. Contact details
@@ -410,11 +407,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 8. Help / Unrecognized Fallback
         return `I'm not sure I understand that question completely. I can answer questions about:<br>
-                &bull; <strong>Education:</strong> BCA completed, MCA pursuing.<br>
-                &bull; <strong>Skills:</strong> Python, Machine Learning, SQL, etc.<br>
-                &bull; <strong>Projects:</strong> Fake News, Emotion Detection, etc.<br>
-                &bull; <strong>Certifications:</strong> IBM, DeepLearning.AI, Anthropic.<br>
-                &bull; <strong>Career Goals:</strong> AI Engineer & Data Scientist aspirations.<br>
+                &bull; <strong>Education:</strong> BCA completed, School percentages.<br>
+                &bull; <strong>Skills:</strong> Python, Machine Learning, React, SQL, etc.<br>
+                &bull; <strong>Projects:</strong> RAG Analyst, AI Safety Audit, OpenCV YOLO tracking.<br>
+                &bull; <strong>Certifications:</strong> Coursera / LinkedIn Learning credentials.<br>
+                &bull; <strong>Career Goals:</strong> AI Agent developer aspirations.<br>
                 &bull; <strong>Contact details:</strong> Email and social link listings.`;
     }
 });
