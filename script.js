@@ -355,8 +355,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (normalized.includes('skill') || normalized.includes('tech') || normalized.includes('lang') || normalized.includes('python') || normalized.includes('sql') || normalized.includes('code') || normalized.includes('know')) {
             return `<strong>Technical Toolkit:</strong><br>
                     &bull; <strong>Languages:</strong> Python, Java, C++, JavaScript, SQL<br>
-                    &bull; <strong>Frontend:</strong> React, HTML, CSS, Tailwind, Bootstrap<br>
-                    &bull; <strong>Backend:</strong> Node.js, Express, Flask, Spring Boot<br>
                     &bull; <strong>AI/ML:</strong> TensorFlow, PyTorch, Scikit-learn, LangChain, OpenAI API<br>
                     &bull; <strong>Database:</strong> MongoDB, MySQL, PostgreSQL<br>
                     &bull; <strong>Cloud:</strong> AWS, Docker, Firebase, Vercel`;
