@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 6. Contact details
         if (normalized.includes('contact') || normalized.includes('email') || normalized.includes('phone') || normalized.includes('reach') || normalized.includes('linkedin') || normalized.includes('github') || normalized.includes('address')) {
             return `<strong>Contact Anubhuti Kaushik:</strong><br>
-                    &bull; <strong>Email:</strong> <a href="mailto:anubhuti.kaushik@email.com">anubhuti.kaushik@email.com</a><br>
+                    &bull; <strong>Email:</strong> <a href="mailto:anubhutikaushik2727@gmail.com">anubhutikaushik2727@gmail.com</a><br>
                     &bull; <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anubhuti-kaushik-1561b22ab" target="_blank">linkedin.com/in/anubhuti-kaushik-1561b22ab</a><br>
                     &bull; <strong>GitHub:</strong> <a href="https://github.com/abakaushik-lgtm" target="_blank">github.com/abakaushik-lgtm</a><br>
                     You can also fill out the contact form directly in the Contact section!`;
